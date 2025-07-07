@@ -43,7 +43,7 @@ const Page = () => {
                     <div className="border-l-2 rounded-lg pt-1 border-zinc-700 pl-3 mt-4">
                         <h2 className="text-lg tracking-wide font-medium text-zinc-300">University</h2>
                         <p className="text-yellow-600 mt-1 text-xs">Currently Enrolled</p>
-                        <p className="text-zinc-400 mt-2 text-sm">Pursuing a Bachelor's degree in Computer Science (BSCS), currently in the 6th semester, gaining hands-on experience in software development and system design.</p>
+                        <p className="text-zinc-400 mt-2 text-sm">Pursuing a Bachelors degree in Computer Science (BSCS), currently in the 6th semester, gaining hands-on experience in software development and system design.</p>
                     </div>
 
                     <div className="border-l-2 rounded-lg pt-1 border-zinc-700 pl-3 mt-8">

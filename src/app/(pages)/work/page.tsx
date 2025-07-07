@@ -13,7 +13,7 @@ interface GitHubRepo {
     language: string | null;
     homepage?: string;
     created_at: string;
-    [key: string]: any;
+    // [key: string]: any;
 }
 
 const languageColors: Record<string, string> = {
@@ -72,8 +72,8 @@ const Page = () => {
                 // Sort by creation date, newest first
                 allRepos.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
                 setRepos(allRepos);
-            } catch (err: any) {
-                setError(err.message || "An error occurred while fetching repositories");
+            } catch {
+                setError("An error occurred while fetching repositories");
             } finally {
                 setIsLoading(false);
             }
