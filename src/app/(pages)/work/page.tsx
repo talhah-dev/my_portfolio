@@ -2,7 +2,6 @@ import BodyWrapper from '@/app/bodyWrapper'
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
-import { IoIosArrowForward } from 'react-icons/io';
 
 const Page = () => {
 
