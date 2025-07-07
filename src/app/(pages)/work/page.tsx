@@ -37,7 +37,7 @@ const Page = () => {
             <div className="px-5 pb-6 md:pt-0 pt-5">
                 <h2 className='md:text-3xl text-2xl md:font-semibold font-medium text-zinc-300'>My Recent Work <span className='font-medium text-sm text-yellow-600'>({project.length}+ Projects)</span></h2>
                 <div className="w-16 md:w-20 h-1.5 md:mt-3 rounded-full bg-zinc-800 mt-2"></div>
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 md:mt-8 mt-6">
+                <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 md:mt-8 mt-6">
                     {
                         project.map((project, index) => (
                             <div key={index} className="w-full bg-zinc-800 p-2 rounded-lg">

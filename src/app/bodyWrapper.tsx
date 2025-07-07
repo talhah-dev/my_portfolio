@@ -6,6 +6,7 @@ import React from 'react'
 import { FaGithub, FaWhatsapp } from 'react-icons/fa';
 import { GrLocation } from 'react-icons/gr';
 import { HiOutlineMail } from 'react-icons/hi';
+import { ToastContainer } from 'react-toastify';
 
 interface BodyWrapperProp {
     children: React.ReactNode;
@@ -13,6 +14,8 @@ interface BodyWrapperProp {
 
 const BodyWrapper: React.FC<BodyWrapperProp> = ({ children }) => {
     return (
+        <>
+        <ToastContainer />
         <div className="flex md:flex-row flex-col items-center md:justify-center md:gap-6 gap-3 h-screen max-w-7xl w-full mx-auto md:p-5 p-3">
             <div className="md:max-w-[25%] bg-zinc-900 p-3 rounded-2xl w-full md:h-[85vh] leftBar md:overflow-auto">
                 <div className="flex md:flex-col gap-5 flex-row items-center">
@@ -22,7 +25,7 @@ const BodyWrapper: React.FC<BodyWrapperProp> = ({ children }) => {
                     <div className="md:text-center">
                         <h1 className='md:text-2xl text-xl capitalize font-medium'>Muhammad Talha</h1>
                         <p className='text-sm text-zinc-400 mt-2'>Full Stack Developer</p>
-                        <Link href={"/"} className='block px-3 hover:bg-zinc-700 transition-all duration-500 text-nowrap text-sm text-zinc-300 py-2 rounded-lg mt-4 border border-zinc-700'>Download Resume</Link>
+                        <Link href={"/"} className='block text-center px-3 hover:bg-zinc-700 transition-all duration-500 text-nowrap text-sm text-zinc-300 py-2 rounded-lg mt-4 border border-zinc-700'>Download Resume</Link>
                     </div>
                 </div>
                 <div className="w-full h-0.5 md:block hidden bg-zinc-700 rounded-full my-8"></div>
@@ -75,6 +78,7 @@ const BodyWrapper: React.FC<BodyWrapperProp> = ({ children }) => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
