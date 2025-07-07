@@ -24,6 +24,7 @@ const Skill = () => {
         { name: 'Python', icon: '/python.svg' },
         { name: 'Three Js', icon: '/threedotjs.svg' },
         { name: 'Zod', icon: '/zod.svg' },
+        { name: 'Sass', icon: '/sass.png' },
         { name: 'HTML5', icon: '/html5.svg' },
         { name: 'CSS3', icon: '/css.svg' },
         { name: 'Bootstarp', icon: '/bootstrap.svg' },

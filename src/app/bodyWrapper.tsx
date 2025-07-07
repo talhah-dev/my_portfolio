@@ -54,7 +54,7 @@ const BodyWrapper: React.FC<BodyWrapperProp> = ({ children }) => {
                             <FaWhatsapp className='text-3xl text-zinc-400' />
                         </div>
                         <div className="">
-                            <p className='text-sm text-zinc-400'>Phone</p>
+                            <p className='text-sm text-zinc-400'>Phone / Whatsapp</p>
                             <p className='font-medium mt-1 text-zinc-300'>0315-2666263</p>
                         </div>
                     </a>
