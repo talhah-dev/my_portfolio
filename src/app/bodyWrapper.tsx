@@ -16,21 +16,21 @@ const BodyWrapper: React.FC<BodyWrapperProp> = ({ children }) => {
     return (
         <>
         <ToastContainer />
-        <div className="flex md:flex-row flex-col items-center md:justify-center md:gap-6 gap-3 h-screen max-w-7xl w-full mx-auto md:p-5 p-3">
-            <div className="md:max-w-[25%] bg-zinc-900 p-3 rounded-2xl w-full md:h-[85vh] leftBar md:overflow-auto">
-                <div className="flex md:flex-col gap-5 flex-row items-center">
-                    <div className="bg-zinc-800 pt-4 md:w-full w-28 rounded-2xl">
-                        <Image alt='profile' className='md:w-full w-28 md:h-64 h-24 object-cover rounded-2xl object-top' src={"/talha.png"} width={250} height={250} />
+        <div className="flex lg:flex-row flex-col items-center lg:justify-center lg:gap-6 gap-3 h-screen max-w-7xl w-full mx-auto lg:p-5 p-3">
+            <div className="lg:max-w-[23%] bg-zinc-900 p-3 rounded-2xl w-full lg:h-[85vh] leftBar lg:overflow-auto">
+                <div className="flex lg:flex-col gap-5 flex-row items-center">
+                    <div className="bg-zinc-800 flex items-center justify-center pt-4 lg:w-full w-28 rounded-2xl">
+                        <Image alt='profile' className='lg:w-full -scale-x-100 w-28 lg:h-64 h-24 object-cover rounded-2xl object-top' src={"/download.png"} width={250} height={250} />
                     </div>
-                    <div className="md:text-center">
-                        <h1 className='md:text-2xl text-xl capitalize font-medium'>Muhammad Talha</h1>
+                    <div className="lg:text-center">
+                        <h1 className='lg:text-2xl text-xl capitalize font-medium'>Muhammad Talha</h1>
                         <p className='text-sm text-zinc-400 mt-2'>Full Stack Developer</p>
                         <Link href={"/"} className='block text-center px-3 hover:bg-zinc-700 transition-all duration-500 text-nowrap text-sm text-zinc-300 py-2 rounded-lg mt-4 border border-zinc-700'>Download Resume</Link>
                     </div>
                 </div>
-                <div className="w-full h-0.5 md:block hidden bg-zinc-700 rounded-full my-8"></div>
+                <div className="w-full h-0.5 lg:block hidden bg-zinc-700 rounded-full my-8"></div>
 
-                <div className="md:block hidden">
+                <div className="lg:block hidden">
                     <a href='https://github.com/talhah-dev' target='_blank' className="flex items-center gap-4 cursor-pointer hover:bg-zinc-950 transition-all duration-500 p-2 rounded-xl">
                         <div className="w-14 h-14 bg-zinc-950 rounded-lg flex items-center justify-center">
                             <FaGithub className='text-3xl text-zinc-400' />
@@ -69,9 +69,9 @@ const BodyWrapper: React.FC<BodyWrapperProp> = ({ children }) => {
                     </a>
                 </div>
             </div>
-            <div className="md:max-w-[75%] bg-zinc-900 rounded-2xl w-full ">
-                <div className="scrollbar-hide overflow-auto pb-10 md:h-[85vh] h-[75vh] ">
-                    <div className="md:max-w-sm md:static fixed z-50 bottom-0 left-0 w-full bg-zinc-800 ml-auto rounded-tr-2xl rounded-tl-2xl md:rounded-tl-none md:rounded-bl-3xl">
+            <div className="lg:max-w-[77%] bg-zinc-900 rounded-2xl w-full ">
+                <div className="scrollbar-hide overflow-auto pb-10 lg:h-[85vh] h-[75vh] ">
+                    <div className="lg:max-w-sm lg:static fixed z-50 bottom-0 left-0 w-full bg-zinc-800 ml-auto rounded-tr-2xl rounded-tl-2xl lg:rounded-tl-none lg:rounded-bl-3xl">
                         <Navbar />
                     </div>
                     {children}

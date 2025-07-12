@@ -84,14 +84,14 @@ const Page = () => {
 
     return (
         <BodyWrapper>
-            <div className="px-5 pb-6 md:pt-0 pt-5">
-                <h2 className="md:text-3xl text-2xl md:font-semibold font-medium text-zinc-300">
+            <div className="px-5 pb-6 lg:pt-0 pt-5">
+                <h2 className="lg:text-3xl text-2xl lg:font-semibold font-medium text-zinc-300">
                     My Recent Work <span className="font-medium text-xs text-yellow-600">({repos.length}+ Projects)</span>
                 </h2>
                 <div className="flex items-center justify-between gap-4">
                     <div>
                         <p className="mt-2 text-zinc-400 text-sm">This is only Public Repositories</p>
-                        <div className="w-16 md:w-20 h-1.5 md:mt-3 rounded-full bg-zinc-800 mt-2"></div>
+                        <div className="w-16 lg:w-20 h-1.5 lg:mt-3 rounded-full bg-zinc-800 mt-2"></div>
                     </div>
                     <Link
                         href="https://github.com/talhah-dev"
@@ -119,7 +119,7 @@ const Page = () => {
                         </p>
                     </div>
                 ) : (
-                    <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 md:mt-8 mt-6">
+                    <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 lg:mt-8 mt-6">
                         {repos.map((repo) => {
                             const lang = repo.language?.toLowerCase() || "default";
                             const colorClass = languageColors[lang] || languageColors.default;

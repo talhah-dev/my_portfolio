@@ -34,10 +34,10 @@ const Skill = () => {
 
     return (
         <BodyWrapper>
-            <div className="px-5 pb-6 md:pt-0 pt-5">
-                <h2 className='md:text-3xl text-2xl md:font-semibold font-medium text-zinc-300'>Tech Stack</h2>
-                <div className="w-16 md:w-20 h-1.5 md:mt-3 rounded-full bg-zinc-800 mt-2"></div>
-                <div className="grid xl:grid-cols-7 lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-3 md:mt-8 mt-6">
+            <div className="px-5 pb-6 lg:pt-0 pt-5">
+                <h2 className='lg:text-3xl text-2xl lg:font-semibold font-medium text-zinc-300'>Tech Stack</h2>
+                <div className="w-16 lg:w-20 h-1.5 lg:mt-3 rounded-full bg-zinc-800 mt-2"></div>
+                <div className="grid xl:grid-cols-7 lg:grid-cols-5 lg:grid-cols-3 grid-cols-2 gap-3 lg:mt-8 mt-6">
 
                     {
                         skills.map((skill, index) => (

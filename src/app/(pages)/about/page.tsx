@@ -6,9 +6,9 @@ const Page = () => {
 
     return (
         <BodyWrapper>
-            <div className="px-5 pb-6 md:pt-0 pt-5">
-                <h2 className='md:text-3xl text-2xl md:font-semibold font-medium text-zinc-300'>About Me</h2>
-                <div className="w-16 md:w-20 h-1.5 md:mt-3 rounded-full bg-zinc-800 mt-2"></div>
+            <div className="px-5 pb-6 lg:pt-0 pt-5">
+                <h2 className='lg:text-3xl text-2xl lg:font-semibold font-medium text-zinc-300'>About Me</h2>
+                <div className="w-16 lg:w-20 h-1.5 lg:mt-3 rounded-full bg-zinc-800 mt-2"></div>
                 <p className='text-zinc-400 mt-5 text-[15px]'>I am Full Stack Developer. I have successfully completed approximately 140+ projects on <Link href={"https://www.fiverr.com/ammar_khalidd"} target='_blank' className='font-medium underline text-green-600'>Fiverr</Link> within the given time frame with 5 star rating. I am able to work well in a team environment. Additionally, I am currently enrolled in a Bachelor of Computer Science.
                 </p>
                 <div className="mt-5 bg-zinc-800 rounded-lg p-4">
